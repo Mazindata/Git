@@ -1,10 +1,6 @@
 import pandas as pd
 import streamlit as st
 
-st.write("Hello World")
-
-import streamlit as st
-
 st.header('Tossing a Coin')
 
 number_of_trials = st.slider('Number of trials?', 1, 1000, 10)
